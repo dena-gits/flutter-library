@@ -1,4 +1,4 @@
-import 'package:http/http.dart';
+import '../http/http.dart';
 
 /// Callback middleware response trigger condition from [condition]
 typedef OnMiddlewareResponse = Future<void> Function(Response response);

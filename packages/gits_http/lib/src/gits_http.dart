@@ -8,11 +8,11 @@ import 'package:gits_http/src/utils/middleware_response_option.dart';
 import 'package:gits_http/src/utils/refresh_token_option.dart';
 import 'package:gits_inspector/gits_inspector.dart'
     show GitsInspector, Inspector, RequestInspector, ResponseInspector;
-import 'package:http/http.dart';
 import 'package:logger/logger.dart';
 import 'package:uuid/uuid.dart';
 
 import 'errors/gits_exceptions.dart' as gits_exception;
+import 'http/http.dart';
 
 /// The base class for an HTTP client.
 class GitsHttp implements Client {
