@@ -12,7 +12,7 @@ import 'package:logger/logger.dart';
 import 'package:uuid/uuid.dart';
 
 import 'errors/gits_exceptions.dart' as gits_exception;
-import 'http/http.dart';
+import 'http/my_http.dart';
 
 /// The base class for an HTTP client.
 class GitsHttp implements Client {

@@ -8,7 +8,7 @@ import 'dart:typed_data';
 
 import 'package:meta/meta.dart';
 
-import '../http.dart' as http;
+import '../my_http.dart' as http;
 import 'base_client.dart';
 import 'base_request.dart';
 import 'client_stub.dart'

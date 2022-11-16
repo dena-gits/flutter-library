@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import '../http/http.dart';
+import '../http/my_http.dart';
 
 /// Callback refresh token response trigger condition from [condition]
 typedef RefreshTokenResponse = Future<void> Function(Response response);

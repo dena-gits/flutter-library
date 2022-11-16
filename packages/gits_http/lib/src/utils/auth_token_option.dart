@@ -1,4 +1,4 @@
-import '../http/http.dart';
+import '../http/my_http.dart';
 
 /// Function async for get token can take from local data or static token
 typedef GetToken = Future<String?> Function();
